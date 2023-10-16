@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(95, 57, 129);
+    color: goldenrod;
+}
+
+a {
+    color: goldenrod;
+}
+
+.name {
+    
+    font-family: cursive;
+}
