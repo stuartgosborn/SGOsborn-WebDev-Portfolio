@@ -26,4 +26,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Created wireframe mock up
 - Coded content of navigation menu 
 - Coded content for main section including about me and work sections. 
-- 
+- Coded content for footer/cotact information.
+- Added images.  
