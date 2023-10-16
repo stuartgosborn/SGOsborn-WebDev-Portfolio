@@ -8,6 +8,12 @@ header {
     color: goldenrod;
 }
 
+#myphoto {
+    height: 15vh;
+    width: auto;
+}
+
+
 a {
     color: goldenrod;
 }
