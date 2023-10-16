@@ -25,3 +25,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Created html and css files, and made sure they were linked and working properly
 - Created wireframe mock up
 - Coded content of navigation menu 
+- Coded content for main section including about me and work sections. 
+- 
