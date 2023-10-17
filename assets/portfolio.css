@@ -1,29 +1,96 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial Narrow", Arial, sans-serif;
 }
 
 header {
-    background-color: rgb(95, 57, 129);
-    color: goldenrod;
+  padding: 1em;
+  background-color: #5f3981;
+  color: goldenrod;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #myphoto {
-    height: 15vh;
-    width: auto;
+  height: 18vh;
+  width: auto;
+}
+#namenav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+#nameheader {
+  font-family: cursive;
+}
 
 a {
-    color: goldenrod;
+  color: goldenrod;
 }
 
-.name {
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+article {
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: ;
+}
+
+.headings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 25%;
+  border-right: solid #5f3981;
+}
+
+section {
+  margin: 1em;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    border: #5f3981 solid;
+    }
+
+#altprojectcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
-    font-family: cursive;
 }
 
-img{
-    width: 40%;
-    height: auto;
+.altprojects {
+    width: 45%;
+    height: 50%;
+}
+
+img {
+  width: 100%;
+  height: stretch;
+  border: solid 0.25em;
+}
+
+#topproject {
+    width: 100%;
+}
+
+#featuredproject {
+  min-width: 100%;
+  
+}
+
+
+#contactinfo {
+  display: flex;
+  flex-direction: column;
 }

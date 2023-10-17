@@ -1,62 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S.G. Osborn Webdev Portfolio </title>
-    <link rel="stylesheet" href="assets/portfolio.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S.G. Osborn Webdev Portfolio</title>
+    <link rel="stylesheet" href="assets/portfolio.css" />
+  </head>
+  <body>
     <header>
-        <img id="myphoto" src="assets/sgosbornphoto.jpeg" alt="S.G. Osborn Photo">
-        <h1 class="name">
-            Stuart G. Osborn
-        </h1>
-        <!-- Todo: add anchor links for menu navigation -->
+      <img
+        id="myphoto"
+        src="assets/sgosbornphoto.jpeg"
+        alt="S.G. Osborn Photo"
+      />
+      <div id="namenav">
+        <pre><h1 id="nameheader">Stuart G. Osborn</h1></pre>
+
         <nav>
-        <ul>
+          <ul>
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#Contact">Contact</a></li>
             <li><a href="assets/Stuart Osborn Resume.pdf">Resume</a></li>
-        </ul>
+          </ul>
         </nav>
+      </div>
     </header>
     <main>
-        <h2 id="aboutme">About Me</h2>
-        <p >
-            I am a credit quality specialist and fin-tech enthusiast looking to enhance my career with coding skills. To that end, I enrolled in Northwestern's coding bootcamp ran by edX to undergo a deep dive into this field. My hope to combine my passions for finance and coding to build web applications for clients in the financial industry, but not exclusively as web devopment's potential and actual application is very broad.  
-        </p>
-        <h2 id="work">Work</h2>
-        <figure id="featuredproject"> 
-            <figcaption>Prework Study Guide</figcaption>
-            <a href="https://stuartgosborn.github.io/prework-study-guide/"><img src="assets/studyguide.jpeg" alt="Featured Project"></a>
-        </figure>
-        <figure> 
-            <figcaption>Refactoring Project</figcaption>
-            <a href="https://stuartgosborn.github.io/hw01-refactoring-project/"><img src="assets/bonzairefactoring.jpeg" alt="Alt Project Example 1"></a>
-        </figure>
-        <figure> 
-            <figcaption>CSS Snippets Cheatsheet</figcaption>
-            <a href="https://stuartgosborn.github.io/css-snippets/"><img src="assets/cheatsheet.jpeg" alt="Alt Project Example 2"></a>
-        </figure>
-        <figure> 
-            <figcaption>AI Quotes Subscription Page</figcaption>
-            <a href="https://stuartgosborn.github.io/AI-quotes-subscriptions/"><img src="assets/thinkingonAI.jpeg" alt="Alt Project Example 3"></a>
-        </figure>
-        <figure> 
-            <figcaption>Future Projects Coming Soon!</figcaption>
-            <a href="#"><img src="assets/comingsoon.jpeg" alt="Alt Project Example 4"></a>
-        </figure>
-               
+      <article id="aboutme">
+        <h2 class="headings">About Me</h2>
+        <section>
+          <p>
+            I am a credit quality specialist and fin-tech enthusiast looking to
+            enhance my career with coding skills. To that end, I enrolled in
+            Northwestern's coding bootcamp ran by edX to undergo a deep dive
+            into this field. My hope to combine my passions for finance and
+            coding to build web applications for clients in the financial
+            industry, but not exclusively as web devopment's potential and
+            actual application is very broad.
+          </p>
+        </section>
+      </article>
+      <article id="work">
+        <h2 class="headings">Work Examples</h2>
+        <section id="projects">
+          <section id="topproject">
+            <figure id="featuredproject">
+              <figcaption>Prework Study Guide</figcaption>
+              <a href="https://stuartgosborn.github.io/prework-study-guide/"
+                ><img
+                  id="featuredprojectimg"
+                  src="assets/studyguide.jpeg"
+                  alt="Featured Project"
+              /></a>
+            </figure>
+          </section>
+          <section id="altprojectcontainer">
+            <figure class="altprojects">
+              <figcaption>Refactoring Project</figcaption>
+              <a
+                href="https://stuartgosborn.github.io/hw01-refactoring-project/"
+                ><img
+                  class="altprojectimg"
+                  src="assets/bonzairefactoring.jpeg"
+                  alt="Alt Project Example 1"
+              /></a>
+            </figure>
+            <figure class="altprojects">
+              <figcaption>CSS Snippets Cheatsheet</figcaption>
+              <a href="https://stuartgosborn.github.io/css-snippets/"
+                ><img
+                  class="altprojectimg"
+                  src="assets/cheatsheet.jpeg"
+                  alt="Alt Project Example 2"
+              /></a>
+            </figure>
+            <figure class="altprojects">
+              <figcaption>AI Quotes Subscription Page</figcaption>
+              <a href="https://stuartgosborn.github.io/AI-quotes-subscriptions/"
+                ><img
+                  class="altprojectimg"
+                  src="assets/thinkingonAI.jpeg"
+                  alt="Alt Project Example 3"
+              /></a>
+            </figure>
+            <figure class="altprojects">
+              <figcaption>Future Projects Coming Soon!</figcaption>
+              <a href="#"
+                ><img
+                  class="altprojectimg"
+                  src="assets/comingsoon.jpeg"
+                  alt="Alt Project Example 4"
+              /></a>
+            </figure>
+          </section>
+        </section>
+      </article>
     </main>
     <footer>
-        <h2 id="Contact">Contact</h2>
-        <p><a href="tel:3128600132">312.860.0132</a></p>
-        <p><a href="mailto:osborn.stuartg@gmail.com">osborn.stuartg@gmail.com</a></p>
-        <p><a href="https://github.com/stuartgosborn">GitHub</a></p>
-        <p><a href="http://www.linkedin.com/in/stuartgosborn">LinkedIn</a></p>
-        
+      <article id="Contact">
+        <h2 class="headings">Contact Me</h2>
+        <section id="contactinfo">
+          <a href="tel:3128600132">312.860.0132</a>
+
+          <a href="mailto:stuartgosborn@u.northwestern.edu"
+            >stuartgosborn@u.northwestern.edu</a
+          >
+
+          <a href="https://github.com/stuartgosborn">GitHub</a>
+          <a href="http://www.linkedin.com/in/stuartgosborn">LinkedIn</a>
+        </section>
+      </article>
     </footer>
-</body>
+  </body>
 </html>
