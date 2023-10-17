@@ -27,4 +27,19 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Coded content of navigation menu 
 - Coded content for main section including about me and work sections. 
 - Coded content for footer/cotact information.
-- Added images.  
+- Added images. 
+- Added flexboxes
+- Added Styling
+- Add media screen for responsive design. 
+
+
+
+## Repository & Deployment
+### Repository:
+
+https://github.com/stuartgosborn/SGOsborn-WebDev-Portfolio 
+
+### Server Page:
+
+https://stuartgosborn.github.io/SGOsborn-WebDev-Portfolio/
+
