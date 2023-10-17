@@ -2,22 +2,24 @@
   margin: 0;
   padding: 0;
   font-family: "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(206, 206, 251);
-  
+  background-color: #cecefb;
 } 
 
 header {
   padding: 1em;
-  background-color: #5f3981;
+  background-color:#5f3981;
   color: goldenrod;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+
+
 #myphoto {
   height: 18vh;
   width: auto;
+  border-radius: 10%;
 }
 #namenav {
   display: flex;
@@ -55,11 +57,13 @@ article {
   justify-content: center;
   min-width: 25%;
   border-right: solid #5f3981;
+  color: #5f3981;
 }
 
 
 section {
   margin: 1em;
+  
 }
 
 section > p {
@@ -109,12 +113,19 @@ figure:hover > figcaption {
   height: 50%;
 }
 
+figure > a {
+    border-radius: 10%;
+}
+
 img {
   width: 100%;
   height: stretch;
   border: solid 0.25em;
-  
+  border-radius: 10%;
+ 
 }
+
+
 
 #featuredprojectimg, .altprojectimg {
    box-shadow: gray .5em .5em ; 
@@ -131,8 +142,9 @@ img {
 }
 footer, #Contact, .Contactinfo {
     background-color: #5f3981;
-    margin: 0;
-   
+    margin-bottom: 0;
+    color: goldenrod;
+    border-right-color: goldenrod;
 }
 #contactinfo {
   display: flex;
